@@ -6,5 +6,5 @@ Ejemplos del artículo sobre las novedades de C# 9.0 (10-nov-2020)
 Aquí tienes el código de los 3 proyectos que he creado y con el código usado en el artículo.<br>
 Cada proyecto tiene el código comentado con cada uno de los ejemplos que he publicado.<br>
 <br>
-Actualizado el 10 de noviembre de 2020 a eso de las 21:51 GMT+1
+Actualizado el 11 de noviembre de 2020 a eso de las 18:26 GMT+1
 

@@ -187,15 +187,29 @@
 
 // # ejemplo 10
 
+// using System;
+
+// var persona1 = new Persona("Guillermo", 63);
+// Console.WriteLine("La persona1: {0}.", persona1);
+
+// var persona2 = persona1 with { Edad = 64 };
+// Console.WriteLine("La persona2: {0}.", persona2);
+
+// var iguales = persona1.Equals(persona2);
+// Console.WriteLine("persona1.Equals(persona2) es {0}", iguales);
+
+// public record Persona(string Nombre, int Edad);
+
+
+// # ejemplo 11
+
 using System;
 
-var persona1 = new Persona("Guillermo", 63);
-Console.WriteLine("La persona1: {0}.", persona1);
+var persona = new Persona("Guillermo", 63);
+Console.WriteLine("La persona: {0}.", persona);
 
-var persona2 = persona1 with { Edad = 64 };
-Console.WriteLine("La persona2: {0}.", persona2);
+var (n, e) = persona;
+Console.WriteLine($"{n} {e}");
 
-var iguales = persona1.Equals(persona2);
-Console.WriteLine("persona1.Equals(persona2) es {0}", iguales);
 
 public record Persona(string Nombre, int Edad);
